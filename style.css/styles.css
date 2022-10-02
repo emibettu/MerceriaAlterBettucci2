@@ -1,3 +1,8 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
 .navbar-toggler-icon {
   color: rgb(8, 5, 5);
   background-color: rgb(128, 39, 30);
@@ -26,6 +31,18 @@
 .container-fluid {
   justify-content: space-between;
   background: linear-gradient(135deg, rgba(163, 148, 11, 0.3333333333) 75%, transparent 5%);
+}
+
+.iconos a {
+  text-decoration: none;
+  color: rgb(218, 205, 170);
+  font-size: 40px;
+  margin: 8px;
+}
+.iconos a i:hover {
+  color: rgb(175, 107, 0);
+  transform: scale(1.5);
+  transition: ease-in-out 0.5s;
 }
 
 .carousel-inner img {
@@ -72,18 +89,6 @@
 .formularioContacto {
   margin-left: 10px;
   margin-bottom: 5px;
-}
-
-.iconos a {
-  text-decoration: none;
-  color: rgb(218, 205, 170);
-  font-size: 40px;
-  margin: 8px;
-}
-.iconos a i:hover {
-  color: rgb(175, 107, 0);
-  transform: scale(1.5);
-  transition: ease-in-out 0.5s;
 }
 
 .card {

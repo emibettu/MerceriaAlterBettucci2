@@ -1,0 +1,13 @@
+.segundoComentario{
+    @extend %primerComentario;
+    color:rgb(121, 4, 4);
+    font-weight:bolder;
+    border-bottom: 4px;
+}
+
+.tercerComentario{
+    @extend %primerComentario;
+    color:rgb(5, 5, 5);
+    font-weight:bolder;
+    border-bottom: 5px;
+}

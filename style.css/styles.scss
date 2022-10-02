@@ -1,46 +1,7 @@
-.navbar-toggler-icon {
-    color: rgb(8, 5, 5);
-    background-color: rgb(128, 39, 30);
-  }
-  
-.nav-item li {
-    a {
-    color: rgb(35, 38, 73) ;
-    margin: 10px;
-        &:hover {
-        color: rgb(128, 39, 30);
-        margin: 2px;
-        font-weight: bolder;
-        transform: scale(1.3);
-        transition: ease-in-out .5s;
-         }
-        }
-    }
-  
-//   .nav-item a:hover {
-//     color: rgb(128, 39, 30);
-//     margin: 2px;
-//     font-weight: bolder;
-//     transform: scale(1.3);
-//     transition: ease-in-out .5s;
-//   }
-  
-  .logonegocio {
-      display: flex;
-      justify-content:left;
-      width: 120px;
-      height: 110px;
-    }
-  
-    .container-fluid{
-      justify-content: space-between;
-      background: linear-gradient(135deg, #a3940b55 75%, transparent 5%);
-    }
-  
+@import "./partials/reset", "./partials/extends", "./partials/backgrounds", "./partials/parrafos", "./partials/body", "./partials/header", "./partials/footer"; 
+
     .carousel-inner img {
-      /* flex-direction: wrap ; */
       max-height: 650px;
-      /* width: 100% ; */
   }
   
   .foto{
@@ -55,14 +16,12 @@
     margin-left: 5px;
     margin-bottom: 50px;
     transition: all 1s;
+    cursor: pointer;
     &:hover {
         transform: scale(1.06);
     }
   }
-  
-//   .mapa :hover{
-//     transform: scale(1.10);
-//   }
+
   
   .tituloprincipal{
     text-decoration: underline;
@@ -86,46 +45,6 @@
   .formularioContacto{
     margin-left: 10px;
     margin-bottom: 5px;
-  }
-  
-  .iconos a {
-    text-decoration: none;
-    color: rgb(218, 205, 170);
-    font-size: 40px;
-    margin: 8px;
-    i {
-        &:hover {
-            color: rgb(175, 107, 0);
-            transform: scale(1.5);
-            transition: ease-in-out .5s;
-        }
-    }
-  }
-  
-//   .iconos a i:hover {
-//     color: rgb(175, 107, 0);
-//     transform: scale(1.5);
-//     transition: ease-in-out .5s;
-//   }
-  
-  .card{
-    display: flex;
-    flex-direction: row;
-    justify-content:space-between;
-    max-width: 250px;
-    max-height: 250px;
-    margin: 15px;
-    margin-left: 150px;
-  }
-  
-  .costuras{
-    display: flex;
-    justify-content: space-between;
-    border-radius: 20px;
-    max-width: 350px;
-    max-height: 350px;
-    margin: 15px;
-    margin-left: 500px;
   }
   
   .instructivo{

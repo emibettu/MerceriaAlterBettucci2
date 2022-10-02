@@ -1,0 +1,20 @@
+
+  .iconos a {
+    text-decoration: none;
+    color: rgb(218, 205, 170);
+    font-size: 40px;
+    margin: 8px;
+    i {
+        &:hover {
+            color: rgb(175, 107, 0);
+            transform: scale(1.5);
+            transition: ease-in-out .5s;
+        }
+    }
+  }
+  
+  @media only screen and (min-width: 768px) and (orientation: landscape){
+    .site-footer{
+      height: 50vh
+}
+  }
